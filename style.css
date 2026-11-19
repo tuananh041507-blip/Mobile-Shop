@@ -101,11 +101,13 @@ body {
 }
 
 .product {
+    float: left;
     width: 300px;
     margin: 10px;
     border: 1px solid #dddddd;
     padding: 15px;
     text-align: center;
+    position: relative;
 }
 
 .product img {
@@ -138,4 +140,30 @@ body {
 .buy:hover {
     background-color: #c0392b;
     /* Đỏ đậm hơn khi hover */
+}
+
+.product {
+    /* ... các thuộc tính cũ ... */
+    position: relative;
+    /* Thêm dòng này */
+}
+
+/* 5. Nhãn "Mới" */
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #27ae60;
+    /* Xanh lá */
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* 6. Footer */
+.footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
 }
