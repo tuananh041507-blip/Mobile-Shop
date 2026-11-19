@@ -143,9 +143,7 @@ body {
 }
 
 .product {
-    /* ... các thuộc tính cũ ... */
     position: relative;
-    /* Thêm dòng này */
 }
 
 /* 5. Nhãn "Mới" */
