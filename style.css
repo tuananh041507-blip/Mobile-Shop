@@ -1,4 +1,6 @@
-/* 1. Thiết lập chung */
+/* ==========================================
+   KHU VỰC: THIẾT LẬP CHUNG
+   ========================================== */
 * {
     margin: 0;
     padding: 0;
@@ -8,27 +10,31 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    /* Nền xám nhạt */
     color: #333;
 }
 
 .container {
     width: 960px;
     margin: 0 auto;
-    /* Căn giữa màn hình */
     background-color: #ffffff;
     /* Nền trắng cho khung web */
 }
 
 .clear {
     clear: both;
-    /* Dùng để dọn dẹp float sau này */
 }
 
-/* 2. Header */
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
 .header {
     background-color: #2c3e50;
-    /* Màu xanh đen */
     padding: 20px;
 }
 
@@ -57,29 +63,97 @@ body {
 
 .menu li a:hover {
     color: #f39c12;
-    /* Màu cam khi di chuột */
 }
 
-/* 3. Banner */
-.banner {
+/* ==========================================
+   KHU VỰC: NỘI DUNG TRANG CHỦ
+   ========================================== */
+
+.TC-main-content {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
+.TC-banner {
+    padding: 50px auto;
+}
+
+.TC-welcom-text {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.TC-welcom-text h2 {
+    font-size: 26px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.TC-grid-title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 26px;
+    color: #2c3e50;
+}
+
+.TC-feature-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 30px;
+    width: 305px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    float: left;
+}
+
+.TC-feature-card h3 {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+    color: #2c3e50;
+}
+
+.TC-feature-card p {
+    font-size: 14px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+
+.TC-btn-more {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 20px;
+    text-emphasis: none;
+    border-radius: 4px;
+}
+
+/* ==========================================
+   KHU VỰC: DANH SÁCH SẢN PHẨM
+   ========================================== */
+
+/* Banner */
+.sp-banner {
     background-color: #f39c12;
-    /* Màu cam */
     color: #ffffff;
     text-align: center;
     padding: 50px 20px;
 }
 
-.banner h2 {
+.sp-banner h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
 
-.banner p {
+.sp-banner p {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-.btn {
+.sp-btn {
     display: inline-block;
     background-color: #2c3e50;
     color: #ffffff;
@@ -89,18 +163,18 @@ body {
     /* Bo góc nút */
 }
 
-/* 4. Danh sách sản phẩm */
-.content {
+/* Danh sách sản phẩm */
+.sp-content {
     padding: 20px 0;
 }
 
-.title {
+.sp-title {
     text-align: center;
     color: #2c3e50;
     margin-bottom: 20px;
 }
 
-.product {
+.sp-product {
     float: left;
     width: 300px;
     margin: 10px;
@@ -110,25 +184,24 @@ body {
     position: relative;
 }
 
-.product img {
+.sp-product img {
     width: 100%;
     /* Ảnh rộng bằng khung */
 }
 
-.product h3 {
+.sp-product h3 {
     font-size: 18px;
     margin: 10px 0;
 }
 
-.price {
+.sp-price {
     color: #e74c3c;
-    /* Màu đỏ */
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.buy {
+.sp-buy {
     display: inline-block;
     background-color: #e74c3c;
     color: #ffffff;
@@ -137,31 +210,21 @@ body {
     border-radius: 5px;
 }
 
-.buy:hover {
+.sp-buy:hover {
     background-color: #c0392b;
-    /* Đỏ đậm hơn khi hover */
 }
 
-.product {
+.sp-product {
     position: relative;
 }
 
-/* 5. Nhãn "Mới" */
-.badge {
+/* Nhãn "Mới" */
+.sp-badge {
     position: absolute;
     top: 10px;
     left: 10px;
     background-color: #27ae60;
-    /* Xanh lá */
     color: #ffffff;
     padding: 5px 10px;
     font-size: 14px;
-}
-
-/* 6. Footer */
-.footer {
-    background-color: #2c3e50;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
 }
