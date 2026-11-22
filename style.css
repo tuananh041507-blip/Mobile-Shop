@@ -135,6 +135,11 @@ body {
    KHU VỰC: DANH SÁCH SẢN PHẨM
    ========================================== */
 
+.sp-main-content {
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
 /* Banner */
 .sp-banner {
     background-color: #f39c12;
