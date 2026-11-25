@@ -1,0 +1,102 @@
+/* ==========================================
+   KHU VỰC: DANH SÁCH SẢN PHẨM
+   ========================================== */
+
+.sp-main-content {
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
+/* Banner */
+.sp-banner {
+    background-color: #f39c12;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.sp-banner h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.sp-banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sp-btn {
+    display: inline-block;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    /* Bo góc nút */
+}
+
+/* Danh sách sản phẩm */
+.sp-content {
+    padding: 20px 0;
+}
+
+.sp-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.sp-product {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.sp-product img {
+    width: 100%;
+    /* Ảnh rộng bằng khung */
+}
+
+.sp-product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.sp-price {
+    color: #e74c3c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sp-buy {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sp-buy:hover {
+    background-color: #c0392b;
+}
+
+.sp-product {
+    position: relative;
+}
+
+/* Nhãn "Mới" */
+.sp-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #27ae60;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,65 @@
+/* ==========================================
+   KHU VỰC: NỘI DUNG TRANG CHỦ
+   ========================================== */
+
+.TC-main-content {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.TC-banner {
+    padding: 50px auto;
+}
+
+.TC-welcom-text {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.TC-welcom-text h2 {
+    font-size: 26px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.TC-grid-title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 26px;
+    color: #2c3e50;
+}
+
+.TC-feature-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 30px;
+    width: 305px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    float: left;
+}
+
+.TC-feature-card h3 {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+    color: #2c3e50;
+}
+
+.TC-feature-card p {
+    font-size: 14px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+
+.TC-btn-more {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 20px;
+    text-emphasis: none;
+    border-radius: 4px;
+}
