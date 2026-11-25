@@ -1,3 +1,8 @@
+/* ==========================================
+   KHU VỰC: LIÊN HỆ
+   ========================================== */
+
+
 .lh-banner {
     background-color: #f39c12;
     color: #ffffff;
@@ -23,6 +28,15 @@
     text-decoration: none;
     border-radius: 5px;
 }
+
+/* Cột trái: thông tin */
+
+.contact-info {
+    float: left;
+    width: 460px;
+    padding-left: 20px;
+}
+
 
 /* Bảng thông tin */
 table {
