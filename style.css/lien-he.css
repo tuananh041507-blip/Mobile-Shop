@@ -105,3 +105,7 @@ th {
 .form-section {
     padding: 40px 0;
 }
+
+.section-title {
+    text-align: center;
+}
